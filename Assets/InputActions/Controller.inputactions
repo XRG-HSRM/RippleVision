@@ -1,0 +1,62 @@
+{
+    "name": "Controller",
+    "maps": [
+        {
+            "name": "TriggerLeft",
+            "id": "dc27e010-fc07-40fd-a2fb-3ac8180cc397",
+            "actions": [
+                {
+                    "name": "Triggerleft",
+                    "type": "Button",
+                    "id": "9c0e466c-dc6f-4587-b42f-43ff890a34e9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4b2ed429-4272-4b4b-8a43-b94941d0c6b6",
+                    "path": "<XRController>{LeftHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Triggerleft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TriggerRight",
+            "id": "c7883c81-9d43-44d0-b9d5-2b056bea37a4",
+            "actions": [
+                {
+                    "name": "triggerright",
+                    "type": "Button",
+                    "id": "cba68000-815d-443e-8c81-b1a741e06498",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f60071dc-cdec-4b6a-b60b-5a18bf47ab74",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "triggerright",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

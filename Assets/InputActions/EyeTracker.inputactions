@@ -1,0 +1,34 @@
+{
+    "name": "EyeTracker",
+    "maps": [
+        {
+            "name": "EyeTracker",
+            "id": "419a1062-b9f5-49c4-bee7-76737b1ef802",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "PassThrough",
+                    "id": "ba9eb773-db8f-445e-80af-71c7e7771cc9",
+                    "expectedControlType": "Pose",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cfd5bff6-81ea-43b8-8278-f3179d94cb31",
+                    "path": "<EyeGaze>/pose",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
